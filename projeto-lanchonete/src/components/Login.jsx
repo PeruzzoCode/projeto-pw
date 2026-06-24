@@ -1,3 +1,5 @@
+import './Login.css'
+
 function Login(){
     return(
         <>
@@ -6,6 +8,7 @@ function Login(){
             <input type="text" placeholder="Usuário" />
             <input type="text" placeholder="Senha" />
             <button>Enviar</button>
+            <a href="#">Esqueceu a senha?</a>
         </div>   
             
         </>
