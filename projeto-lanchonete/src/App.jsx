@@ -3,6 +3,7 @@ import Login from "./components/Login";
 import CardProd from "./components/CardProd";
 import Funcionario from "./components/Funcionario";
 import Contador from "./components/Contador";
+import Calculadora from "./components/Calculadora";
 
 function App(){
     return(
@@ -25,7 +26,11 @@ function App(){
             <Funcionario nome= "Pedro"
             cargo= "CEO"/>
 
-            <Contador  />
+            <Contador/>
+
+            <Calculadora/>
+
+            
 
 
         </>
