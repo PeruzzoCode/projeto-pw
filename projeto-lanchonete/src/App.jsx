@@ -25,7 +25,7 @@ function App(){
             <Funcionario nome= "Pedro"
             cargo= "CEO"/>
 
-            <Contador />
+            <Contador  />
 
 
         </>

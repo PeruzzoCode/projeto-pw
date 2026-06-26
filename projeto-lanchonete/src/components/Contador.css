@@ -1,4 +1,11 @@
 .Contador{
     color: black;
-    
+    border: 2px solid gray;
+ 
+    border-radius: 20px;
+
+}
+
+.Contador h1{
+    font-size: 40px;
 }
