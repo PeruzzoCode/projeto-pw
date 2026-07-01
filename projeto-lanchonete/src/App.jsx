@@ -6,6 +6,11 @@ import Contador from "./components/Contador";
 import Calculadora from "./components/Calculadora";
 
 function App(){
+
+    const lanches = [{id:1, nome: "X-salada", preco: "17.50"},
+        {id:2,nome:"X-burguer", preco: "15.90"},
+        {id:3, nome: "Refrigerante", preco: "6.00"}]
+
     return(
         <>
             <Header titulo="Lanchonete e Dog" 
@@ -13,16 +18,17 @@ function App(){
             
             <Login />
 
-            <CardProd nome="X-Burger"
-            preco="R$ 15,90"/>
-
-            <CardProd nome="X-salada"
-            preco="R$ 17,90"/>
-
-            <CardProd  nome="Refrigerante"
-            preco="R$ 6,00"
-            />
-
+            <div className="lista_cards">
+                {
+                lanches.map(Lanche => (
+                    <CardProd
+                    key = {Lanche.id}
+                    nome = {Lanche.nome}
+                    preco = {Lanche.preco}
+                    />
+                ))}
+                </div>
+                
             <Funcionario nome= "Pedro"
             cargo= "CEO"/>
 

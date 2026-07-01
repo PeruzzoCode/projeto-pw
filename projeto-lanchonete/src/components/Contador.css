@@ -2,7 +2,8 @@
     color: black;
     border: 2px solid gray;
     border-radius: 20px;
-
+    width: 240px;
+    margin: auto;
 }
 
 .Contador h1{
