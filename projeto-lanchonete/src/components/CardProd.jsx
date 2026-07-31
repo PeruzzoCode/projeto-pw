@@ -1,4 +1,5 @@
 import './CardProd.css'
+import Contador from './Contador'
 
 function CardProd ({nome, preco, imagem}){
 
@@ -12,9 +13,13 @@ function CardProd ({nome, preco, imagem}){
         </div>
 
         <div className="preco">
-            <p>{preco}</p>
+            <p>R$ {preco}</p>
         </div>
+        <Contador />
         </div>
+
+        
+
 </>
     )
 }

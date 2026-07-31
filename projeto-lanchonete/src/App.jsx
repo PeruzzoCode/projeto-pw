@@ -22,12 +22,13 @@ function App(){
     const funcionario = [
         {id:1, nome: "Felipe", cargo: "Garçom"},
         {id:2,nome:"Luiz", cargo: "Chapeiro"},
-        {id:3, nome: "Sebastian", cargo: "Segurança"}
+        {id:3, nome: "Sebastian", cargo: "Segurança"},
+        {id:4, nome: "Peruzzo", cargo: "CEO"}
     ]
 
     return(
         <>
-            <Header titulo="Lanchonete e Dog" 
+            <Header titulo="Lanchonete" 
             subtitulo="O melhor da região"/>
             
             <Login />
@@ -55,11 +56,8 @@ function App(){
                     />
                 ))}
                 </div>
-                
-            <Funcionario nome= "Pedro"
-            cargo= "CEO"/>
 
-            <Contador/>
+            
 
             <Calculadora/>
 
