@@ -9,9 +9,14 @@ import './App.css'
 function App(){
 
     const lanches = [
-        {id:1, nome: "X-salada", preco: "17.50", imagem: "/images/x-salada.jpg" },
-        {id:2,nome:"X-burguer", preco: "15.90", imagem: "/images/x-burguer.jpg"},
-        {id:3, nome: "Refrigerante", preco: "6.00", imagem: "/images/refrigerante.png"}
+        {id:1, nome: "X-salada", preco: "17.50", imagem: "/images/x-salada.png" },
+        {id:2, nome:"X-burguer", preco: "15.90", imagem: "/images/x-burguer.png"},
+        {id:3, nome: "X-egg", preco: "17.50", imagem: "/images/x-egg.png"},
+        {id:4, nome: "Refrigerante", preco: "6.00", imagem: "/images/refrigerante.png"},
+        {id:5, nome: "Água com gás", preco: "5.50", imagem: "/images/gas.png"},
+        {id:6, nome: "Água sem gás", preco: "5.50", imagem: "/images/agua.png"},
+        {id:7, nome: "Picolé", preco: "7.00", imagem: "/images/picole.png"},
+        {id:8, nome: "Cookie", preco: "8.00", imagem: "/images/cookie.png"}
     ]
 
     const funcionario = [
