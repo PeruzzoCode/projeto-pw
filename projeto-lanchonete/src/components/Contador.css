@@ -1,12 +1,11 @@
-.Contador{
-    color: black;
-    border: 1px solid black;
-    border-radius: 20px;
-    width: 150px;
-    margin: auto;
-    box-shadow: 0 2px 8px rgb(0,0,0,0.20);
-}
+.Contador{ color: black; border: 1px solid black; border-radius: 20px; width: 150px; margin: auto; box-shadow: 0 2px 8px rgb(0,0,0,0.20); display: flex; align-items: center; justify-content: center; gap: 10px; }
 
-.Contador h1{
-    font-size: 30px;
-}
+.Contador h1{ font-size: 30px; }
+
+.mais { background-color: green; color: white; border: none; padding: 10px 15px; cursor: pointer; border-radius: 5px; }
+
+.menos { background-color: red; color: white; border: none; padding: 10px 15px; cursor: pointer; border-radius: 5px; }
+
+.mais:hover { background-color: darkgreen; }
+
+.menos:hover { background-color: darkred; }
